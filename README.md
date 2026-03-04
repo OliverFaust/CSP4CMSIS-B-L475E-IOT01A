@@ -36,7 +36,7 @@ To ensure the CSP engine runs reliably on the L475, the following "Advanced Sett
 The project is configured with **STM32_THREAD_SAFE_STRATEGY=4**. This maps standard C library locks to FreeRTOS mutexes, ensuring that `printf` and `malloc` are reentrant and safe to call from multiple CSP processes simultaneously.
 
 ### Timebase Source
-To prevent interference between the HAL and the RTOS scheduler, the Timebase Source is moved from `SysTick` to `TIM1`.
+To prevent interference between the HAL and the RTOS scheduler, the **Timebase Source** is moved from `SysTick` to `TIM1`.
 
 ### Memory Management
 Given the 128 KB SRAM limit of the L475:
