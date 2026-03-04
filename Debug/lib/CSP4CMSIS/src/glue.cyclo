@@ -1,0 +1,7 @@
+/home/oliver/GitHub/CSP4CMSIS-B-L475E-IOT01A/lib/CSP4CMSIS/include/csp/time.h:28:14:csp::Time::Time(TickType_t)	1
+/home/oliver/GitHub/CSP4CMSIS-B-L475E-IOT01A/lib/CSP4CMSIS/include/csp/time.h:33:16:TickType_t csp::Time::to_ticks() const	1
+../lib/CSP4CMSIS/src/glue.cpp:19:7:void* operator new(size_t)	1
+../lib/CSP4CMSIS/src/glue.cpp:23:6:void operator delete(void*)	1
+../lib/CSP4CMSIS/src/glue.cpp:31:11:csp::Time CurrentTime()	1
+../lib/CSP4CMSIS/src/glue.cpp:35:6:void SleepFor(csp::Time)	1
+../lib/CSP4CMSIS/src/glue.cpp:39:6:void SleepUntil(csp::Time)	1
